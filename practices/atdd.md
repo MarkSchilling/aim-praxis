@@ -49,6 +49,22 @@ The gate is deterministic: it does not exercise judgment, only checks criteria. 
 
 The deterministic property is what makes the gate trustworthy. An agent that exercises judgment about what is "good enough" introduces variation. An agent that mechanically checks criteria reduces variation.
 
+## How to write acceptance criteria
+
+The ATDD Guardian gate enforces structural properties on criteria. Five content rules govern what well-formed criteria look like at the practice level. They emerged from operating ATDD across a working implementation; documenting them so that adopting teams do not have to rediscover them through rework.
+
+**Use concrete identifiers, not template variables.** A criterion that says "the system audits invoice `:id`" leaves two implementations free to interpret `:id` differently — what counts as a valid ID, what happens for absent or malformed IDs. Replace template variables with concrete identifiers and assert their existence in a precondition: "Given an invoice with ID `INV-001` exists; when the system audits invoice `INV-001`; then …". The Given establishes the state; the criterion references it concretely. Template variables in criteria are the most frequent class of ambiguity failure in practice.
+
+**Split criteria that cross system boundaries.** A criterion that says "when I sign in with a federated identity provider" describes a flow spanning multiple systems (frontend, backend, identity provider). Two implementations will model the boundary differently and diverge. Write one criterion per system layer — a backend criterion describing the callback handling and token issuance, and a separate frontend criterion describing how the token is read and stored. The combined criterion is not precise; the per-layer pair is.
+
+**Enumerate boundary cases explicitly.** "Rejects invalid input" is ambiguous — two implementations diverge on whether empty string, whitespace-only, null, and absent are all invalid or only some. State the cases: "Rejects an input that is empty, whitespace-only, absent, or does not satisfy `<specific rule>`." If the criterion intentionally applies only to a non-null, non-empty value, say so in the Given.
+
+**Describe externally observable outcomes, not internal storage.** "The password is saved" is ambiguous — implementations diverge on plaintext versus hashed storage. "A password matching the submitted value cannot be retrieved in plaintext by anyone" is observable. Field names (`passwordHash`, `accessToken`, `userId`) in a criterion are a signal that the author is writing an implementation specification, not an acceptance criterion. Remove them and describe the externally observable guarantee instead.
+
+**Criteria are test-layer-independent.** A criterion that prescribes a test framework, page object, or function signature is specifying the test, not the behavior. Criteria describe what should be true about the system; the test layer (end-to-end, integration, unit) and tooling are implementation choices made downstream in the TDD/ATDD workflow, not in the criterion. Remove references to test frameworks, page objects, function signatures, and return-value shapes from criterion text.
+
+For Gherkin-level phrasing patterns that ensure criteria pass the ATDD Guardian's implementation-divergence check, see "Criteria authoring patterns (ATDD gate)" in `operations/gates.md`. The content rules above are about what a criterion says; the phrasing patterns are about how the Given/When/Then structure says it.
+
 ## The customer in the loop
 
 ATDD's most distinctive feature, and the one most often skipped, is the customer's voice in defining "done." Teams that do not have direct customer access often substitute product management as a proxy. This works only if product management has genuine customer-fit insight; otherwise the proxy degrades the acceptance into engineering's own interpretation of what customers want.
