@@ -1,53 +1,59 @@
 # Aim Praxis
 
-**Pronunciation:** Aim PRAK-sis
+**Pronunciation:** Aim PRAK-sis (rhymes with "taxis")
 
-A software development methodology that treats building software as a system, grounded in Deming's System of Profound Knowledge and broader systems thinking.
+Aim Praxis is a software development methodology grounded in W. Edwards Deming's System of Profound Knowledge and broader systems thinking. It treats software development as a system whose properties emerge from feedback at every cycle time — from minute-by-minute code commits to quarter-by-quarter strategy — and it preserves human judgment at the specific points where judgment about purpose is required.
 
-## Why this exists
+The methodology integrates seven practices as nested feedback loops: Business Model Canvas, Value Proposition Canvas, Story Mapping, Behavior-Driven Development, Acceptance Test-Driven Development, Test-Driven Development, and Continuous Integration / Continuous Deployment. Each loop operates at its own cycle time on its own stocks of information. Each catches a class of error invisible to the others. Together they form a control system that produces software aligned with stated intentions.
 
-Most software methodologies optimize for one cycle time. Agile optimizes for weekly delivery. DevOps optimizes for deployment frequency. TDD optimizes for unit-level design. Each is correct at its own scale, and each leaves the other scales unaddressed.
+Aim Praxis is grounded in the conviction, from Deming, that 94% of failures belong to the system rather than the individual. Its central organizing concept is the *system aim* — the purpose toward which every practice in the methodology orients. The name reflects this: *Aim* names the methodology's orientation; *Praxis* names its character as disciplined practice informed by theory.
 
-A team that deploys continuously can still be building software for a market that doesn't exist. A team with perfect unit tests can still ship features that don't solve the customer's actual problem. A team with a beautiful story map can still produce code that's hard to change.
+## Intellectual lineage
 
-The error each methodology catches is invisible to the others. The methodology that catches them all at once doesn't exist — yet.
+Aim Praxis draws on multiple traditions:
 
-Aim Praxis is the integration of seven existing practices into one system, organized by the structural insight that they form a stack of nested feedback loops at different cycle times. Each loop catches errors invisible to the others. Together they produce software aligned with stated intentions at every scale the work actually happens at.
+- W. Edwards Deming's System of Profound Knowledge — *Out of the Crisis*, *The New Economics*
+- Systems thinking — Forrester, Meadows (*Thinking in Systems*), Senge (*The Fifth Discipline*)
+- Lean and Toyota Production System — Ohno, Womack and Jones
+- Story Mapping — Patton's *User Story Mapping*
+- BDD — North, Adzic's *Specification by Example*
+- ATDD — Koskela and the FIT tradition
+- TDD — Beck's *Test-Driven Development*
+- CI/CD — Humble and Farley's *Continuous Delivery*
+- Philosophical tradition — Aristotle on praxis and phronesis, Aquinas, Dallas Willard
 
-## What it is
+See `docs/lineage.md` for the detailed genealogy.
 
-[Same as above]
+## Repository organization
 
-## What's different
+- `docs/` — core methodology documents: aim, full methodology, lineage, glossary
+- `concepts/` — foundational concepts (stocks and flows, aging chains, feedback loops, the seven layers, cycle times, compounding artifacts, the rework register)
+- `practices/` — one document per integrated practice
+- `system/` — the integrated view: how the practices form one system
+- `agents/` — agentic augmentation: placement philosophy and per-agent specifications
+- `context/` — the substrate that makes agents work: MCP servers, skills, knowledge files, boundary specifications
+- `operations/` — putting the methodology to work: sequence, cadences, gates, monetization
+- `diagrams/` — every diagram, as SVG source
+- `decisions/` — architecture decision records for the methodology itself
+- `examples/` — worked applications (Ship Audit will be the first)
 
-[Same as above]
+## Suggested reading order
 
-## Worked example: Ship Audit
+For someone encountering Aim Praxis for the first time:
 
-The methodology is being applied to Ship Audit, a SaaS product for SMB e-commerce shipping invoice auditing. Ship Audit's development is the methodology's first proof. See [`examples/ship-audit/`](examples/ship-audit/) for the worked case study — system aim, BMC and VPC evolution, story map development, glossary growth, rework register patterns, and the compounding artifacts as they accumulated.
+1. `docs/aim.md` — what the methodology is for
+2. `concepts/01-stocks-and-flows.md` — the analytical vocabulary
+3. `concepts/04-the-seven-layers.md` — the structural claim
+4. `system/integrated-system.md` — how it all fits together
+5. `agents/placement-philosophy.md` — how agents fit in
+6. `operations/operationalization-sequence.md` — how to actually adopt it
 
-This is not a methodology built in the abstract. It's the methodology I've found I needed to build a SaaS product as a solo founder while preserving the discipline that forty years of consulting taught me matters for software that lasts.
+## Status
 
-## Where to start
+Aim Praxis is under active development. The methodology is being consolidated from research, design work, and application to a working SaaS product (Ship Audit). The repository is the canonical source of truth as the methodology evolves.
 
-[Same as above]
-
-## Lineage
-
-[Same as above]
-
-## Contributing
-
-Aim Praxis is currently developed by one person (me). The methodology will benefit from outside practitioners applying it to their own work and reporting back — both successes and failures.
-
-If you've applied any part of Aim Praxis to a real project, I'd love to hear about it. Open an issue with the tag `application-report` and tell me what worked, what didn't, and what you'd change.
-
-Pull requests for typos, broken links, and obvious errors are welcome without prior discussion. Larger contributions — new concepts, changes to the practice documents, new ADRs — should start with an issue so we can talk about whether and how to integrate them. The methodology has a coherent center; changes need to preserve it.
+This is not yet a published external methodology. It is the working substrate from which publications, tooling, and consulting offerings will eventually be derived.
 
 ## License
 
-Apache License 2.0. See [`LICENSE`](LICENSE).
-
-## Author
-
-[Same as above]
+Apache License 2.0 — see `LICENSE`.

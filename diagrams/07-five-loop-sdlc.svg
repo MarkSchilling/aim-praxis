@@ -1,0 +1,41 @@
+<svg width="100%" viewBox="0 0 680 760" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Nested feedback loops for requirement-aligned software</title>
+<desc>Five practices operating at different cycle times on different stocks. Outer loops constrain inner loops; inner loops feed back into outer.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="ts" x="40" y="28">Five nested loops. Each catches a class of error invisible to the others.</text>
+
+<g class="c-purple"><rect x="40" y="60" width="600" height="640" rx="16" stroke-width="0.5"/></g>
+<text class="th" x="60" y="86">Story mapping</text>
+<text class="ts" x="60" y="104">Weeks to months — aim alignment, release slicing</text>
+
+<g class="c-blue"><rect x="80" y="130" width="520" height="540" rx="14" stroke-width="0.5"/></g>
+<text class="th" x="100" y="156">BDD</text>
+<text class="ts" x="100" y="174">Days to weeks — behavioral specification, ubiquitous language</text>
+
+<g class="c-teal"><rect x="120" y="200" width="440" height="440" rx="12" stroke-width="0.5"/></g>
+<text class="th" x="140" y="226">ATDD</text>
+<text class="ts" x="140" y="244">Days — story-level acceptance, customer agreement</text>
+
+<g class="c-green"><rect x="160" y="270" width="360" height="340" rx="10" stroke-width="0.5"/></g>
+<text class="th" x="180" y="296">TDD</text>
+<text class="ts" x="180" y="314">Minutes — unit design, regression protection</text>
+
+<g class="c-amber"><rect x="200" y="340" width="280" height="240" rx="8" stroke-width="0.5"/></g>
+<text class="th" x="220" y="366">CI/CD</text>
+<text class="ts" x="220" y="384">Seconds to hours — integration, deployability</text>
+
+<g class="c-gray"><rect x="240" y="420" width="200" height="140" rx="8" stroke-width="0.5"/>
+<text class="th" x="340" y="448" text-anchor="middle" dominant-baseline="central">System behavior</text>
+<text class="ts" x="340" y="472" text-anchor="middle" dominant-baseline="central">What users actually</text>
+<text class="ts" x="340" y="490" text-anchor="middle" dominant-baseline="central">encounter in production</text>
+<text class="ts" x="340" y="520" text-anchor="middle" dominant-baseline="central">Each loop verifies a</text>
+<text class="ts" x="340" y="538" text-anchor="middle" dominant-baseline="central">different property of this</text></g>
+
+<text class="ts" x="660" y="380" text-anchor="end" font-style="italic">Each loop constrains the loops inside it. Each inner loop feeds back to the loops around it.</text>
+
+<g><rect x="40" y="720" width="600" height="32" rx="8" fill="none" stroke="var(--color-border-tertiary)" stroke-width="0.5"/>
+<text class="ts" x="56" y="740">Outer loops catch direction errors. Inner loops catch correctness errors. Neither alone is sufficient.</text></g>
+</svg>

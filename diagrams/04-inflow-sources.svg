@@ -1,0 +1,69 @@
+<svg width="100%" viewBox="0 0 680 720" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Sources of inflows to the Story Map</title>
+<desc>Each inflow into the Story Map originates from a stock outside or upstream of the map itself. Naming these sources clarifies the system boundary and where the team depends on the world.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="ts" x="40" y="28">Each inflow drains from an upstream stock. Stocks outside the dashed boundary are exogenous.</text>
+
+<rect x="30" y="60" width="320" height="600" rx="14" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="6 4" opacity="0.5"/>
+<text class="ts" x="190" y="80" text-anchor="middle" font-style="italic">Outside the team's system boundary</text>
+
+<g class="c-blue"><rect x="50" y="100" width="280" height="70" rx="10" stroke-width="0.5"/>
+<text class="th" x="190" y="124" text-anchor="middle" dominant-baseline="central">User reality</text>
+<text class="ts" x="190" y="144" text-anchor="middle" dominant-baseline="central">Observed behavior, pains,</text>
+<text class="ts" x="190" y="160" text-anchor="middle" dominant-baseline="central">workflows, unmet needs</text></g>
+
+<g class="c-blue"><rect x="50" y="200" width="280" height="70" rx="10" stroke-width="0.5"/>
+<text class="th" x="190" y="224" text-anchor="middle" dominant-baseline="central">Team imagination</text>
+<text class="ts" x="190" y="244" text-anchor="middle" dominant-baseline="central">Tacit knowledge, analogies,</text>
+<text class="ts" x="190" y="260" text-anchor="middle" dominant-baseline="central">possibilities, hunches</text></g>
+
+<g class="c-blue"><rect x="50" y="300" width="280" height="70" rx="10" stroke-width="0.5"/>
+<text class="th" x="190" y="324" text-anchor="middle" dominant-baseline="central">Business intent</text>
+<text class="ts" x="190" y="344" text-anchor="middle" dominant-baseline="central">Strategy, revenue goals,</text>
+<text class="ts" x="190" y="360" text-anchor="middle" dominant-baseline="central">constraints from leadership</text></g>
+
+<g class="c-blue"><rect x="50" y="400" width="280" height="70" rx="10" stroke-width="0.5"/>
+<text class="th" x="190" y="424" text-anchor="middle" dominant-baseline="central">Market signals</text>
+<text class="ts" x="190" y="444" text-anchor="middle" dominant-baseline="central">Competitor moves, regulatory</text>
+<text class="ts" x="190" y="460" text-anchor="middle" dominant-baseline="central">shifts, technology shifts</text></g>
+
+<g class="c-coral"><rect x="50" y="500" width="280" height="70" rx="10" stroke-width="0.5"/>
+<text class="th" x="190" y="524" text-anchor="middle" dominant-baseline="central">Prior knowledge stocks</text>
+<text class="ts" x="190" y="544" text-anchor="middle" dominant-baseline="central">Glossary, lessons learned,</text>
+<text class="ts" x="190" y="560" text-anchor="middle" dominant-baseline="central">capability claims (endogenous)</text></g>
+
+<g class="c-coral"><rect x="50" y="600" width="280" height="40" rx="10" stroke-width="0.5"/>
+<text class="ts" x="190" y="622" text-anchor="middle" dominant-baseline="central">Note: this one is inside the boundary</text></g>
+
+<line x1="330" y1="135" x2="430" y2="135" class="arr" marker-end="url(#arrow)"/>
+<circle cx="380" cy="135" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<text class="ts" x="442" y="125">drains via user discovery</text>
+<text class="ts" x="442" y="142">→ fills raw ideas</text>
+
+<line x1="330" y1="235" x2="430" y2="235" class="arr" marker-end="url(#arrow)"/>
+<circle cx="380" cy="235" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<text class="ts" x="442" y="225">drains via blue-sky ideation</text>
+<text class="ts" x="442" y="242">→ fills raw ideas</text>
+
+<line x1="330" y1="335" x2="430" y2="335" class="arr" marker-end="url(#arrow)"/>
+<circle cx="380" cy="335" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<text class="ts" x="442" y="325">drains via stakeholder input</text>
+<text class="ts" x="442" y="342">→ fills raw ideas + frames the aim</text>
+
+<line x1="330" y1="435" x2="430" y2="435" class="arr" marker-end="url(#arrow)"/>
+<circle cx="380" cy="435" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<text class="ts" x="442" y="425">drains via discovery + stakeholder</text>
+<text class="ts" x="442" y="442">→ fills raw ideas, reshapes intent</text>
+
+<line x1="330" y1="535" x2="430" y2="535" class="arr" marker-end="url(#arrow)"/>
+<circle cx="380" cy="535" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<text class="ts" x="442" y="525">flows into detail refinement</text>
+<text class="ts" x="442" y="542">as accumulated constraint</text>
+
+<g><rect x="40" y="670" width="600" height="40" rx="8" fill="none" stroke="var(--color-border-tertiary)" stroke-width="0.5"/>
+<text class="ts" x="56" y="690">Four exogenous sources, one endogenous. The endogenous source is what makes a learning system.</text>
+<text class="ts" x="56" y="704">Without it, every map starts from scratch and the team rediscovers the same details each cycle.</text></g>
+</svg>

@@ -1,0 +1,191 @@
+<svg width="100%" viewBox="0 0 680 1400" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Integrated seven-practice stock-and-flow system with agentic agents placed across all layers</title>
+<desc>Seven practices stacked. Agents placed at valves, gates, and the rework register. Human judgment concentrated at aim setting, fit validation, release slicing, customer acceptance, and pattern interpretation.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="ts" x="40" y="28">Coral diamonds are agents. Agents widen valves; humans hold judgment.</text>
+
+<text class="th" x="40" y="64">BMC layer — weeks to quarters</text>
+<g class="c-purple"><rect x="40" y="80" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="102" text-anchor="middle" dominant-baseline="central">Aim and segments</text>
+<text class="ts" x="125" y="120" text-anchor="middle" dominant-baseline="central">Who, what, why</text></g>
+<g class="c-purple"><rect x="240" y="80" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="102" text-anchor="middle" dominant-baseline="central">Value flows</text>
+<text class="ts" x="325" y="120" text-anchor="middle" dominant-baseline="central">Create, deliver, capture</text></g>
+<g class="c-purple"><rect x="440" y="80" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="102" text-anchor="middle" dominant-baseline="central">Revenue and cost</text>
+<text class="ts" x="525" y="120" text-anchor="middle" dominant-baseline="central">Sustainability</text></g>
+
+<g class="c-coral"><polygon points="628,108 640,96 652,108 640,120" stroke-width="0.5"/></g>
+<text class="ts" x="640" y="138" text-anchor="middle">Market</text>
+<text class="ts" x="640" y="152" text-anchor="middle">signal agent</text>
+
+<line x1="325" y1="136" x2="325" y2="156" class="arr" marker-end="url(#arrow)"/>
+<circle cx="325" cy="146" r="5" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<text class="th" x="40" y="176">VPC layer — weeks to months</text>
+<g class="c-teal"><rect x="40" y="190" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="212" text-anchor="middle" dominant-baseline="central">Customer jobs</text>
+<text class="ts" x="125" y="230" text-anchor="middle" dominant-baseline="central">Pains and gains</text></g>
+<g class="c-teal"><rect x="240" y="190" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="212" text-anchor="middle" dominant-baseline="central">Value proposition</text>
+<text class="ts" x="325" y="230" text-anchor="middle" dominant-baseline="central">Relievers, creators</text></g>
+<g class="c-teal"><rect x="440" y="190" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="212" text-anchor="middle" dominant-baseline="central">Fit validation</text>
+<text class="ts" x="525" y="230" text-anchor="middle" dominant-baseline="central">Does it solve</text></g>
+
+<g class="c-coral"><polygon points="628,218 640,206 652,218 640,230" stroke-width="0.5"/></g>
+<text class="ts" x="640" y="248" text-anchor="middle">Customer</text>
+<text class="ts" x="640" y="262" text-anchor="middle">research agent</text>
+
+<line x1="325" y1="246" x2="325" y2="266" class="arr" marker-end="url(#arrow)"/>
+<circle cx="325" cy="256" r="5" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<text class="th" x="40" y="286">Story Mapping layer — weeks</text>
+<g class="c-coral"><rect x="40" y="300" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="322" text-anchor="middle" dominant-baseline="central">Backbone</text>
+<text class="ts" x="125" y="340" text-anchor="middle" dominant-baseline="central">Activities, tasks</text></g>
+<g class="c-coral"><rect x="240" y="300" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="322" text-anchor="middle" dominant-baseline="central">Refined tasks</text>
+<text class="ts" x="325" y="340" text-anchor="middle" dominant-baseline="central">Details, exceptions</text></g>
+<g class="c-coral"><rect x="440" y="300" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="322" text-anchor="middle" dominant-baseline="central">Release slices</text>
+<text class="ts" x="525" y="340" text-anchor="middle" dominant-baseline="central">MVP, skeleton</text></g>
+
+<g class="c-coral"><polygon points="218,328 230,316 242,328 230,340" stroke-width="0.5"/></g>
+<text class="ts" x="200" y="290" text-anchor="end">Refinement</text>
+
+<line x1="325" y1="356" x2="325" y2="376" class="arr" marker-end="url(#arrow)"/>
+<circle cx="325" cy="366" r="5" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<text class="th" x="40" y="396">BDD layer — days to weeks</text>
+<g class="c-pink"><rect x="40" y="410" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="432" text-anchor="middle" dominant-baseline="central">Examples</text>
+<text class="ts" x="125" y="450" text-anchor="middle" dominant-baseline="central">Conversations</text></g>
+<g class="c-pink"><rect x="240" y="410" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="432" text-anchor="middle" dominant-baseline="central">Scenarios</text>
+<text class="ts" x="325" y="450" text-anchor="middle" dominant-baseline="central">Given-When-Then</text></g>
+<g class="c-pink"><rect x="440" y="410" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="432" text-anchor="middle" dominant-baseline="central">Living docs</text>
+<text class="ts" x="525" y="450" text-anchor="middle" dominant-baseline="central">Verified behavior</text></g>
+
+<g class="c-coral"><polygon points="218,438 230,426 242,438 230,450" stroke-width="0.5"/></g>
+<text class="ts" x="200" y="400" text-anchor="end">Workshopping</text>
+
+<g class="c-coral"><polygon points="628,438 640,426 652,438 640,450" stroke-width="0.5"/></g>
+<text class="ts" x="640" y="476" text-anchor="middle">Glossary</text>
+<text class="ts" x="640" y="490" text-anchor="middle">agent</text>
+
+<line x1="325" y1="466" x2="325" y2="486" class="arr" marker-end="url(#arrow)"/>
+<circle cx="325" cy="476" r="5" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<text class="th" x="40" y="510">ATDD layer — days</text>
+<g class="c-amber"><rect x="40" y="520" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="542" text-anchor="middle" dominant-baseline="central">Criteria</text>
+<text class="ts" x="125" y="560" text-anchor="middle" dominant-baseline="central">Customer-agreed</text></g>
+<g class="c-amber"><rect x="240" y="520" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="542" text-anchor="middle" dominant-baseline="central">Acceptance tests</text>
+<text class="ts" x="325" y="560" text-anchor="middle" dominant-baseline="central">Executable gates</text></g>
+<g class="c-amber"><rect x="440" y="520" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="542" text-anchor="middle" dominant-baseline="central">Complete</text>
+<text class="ts" x="525" y="560" text-anchor="middle" dominant-baseline="central">Customer signoff</text></g>
+
+<g class="c-coral"><polygon points="218,548 230,536 242,548 230,560" stroke-width="0.5"/></g>
+<text class="ts" x="200" y="510" text-anchor="end">ATDD Guardian</text>
+
+<line x1="325" y1="576" x2="325" y2="596" class="arr" marker-end="url(#arrow)"/>
+<circle cx="325" cy="586" r="5" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<text class="th" x="40" y="616">TDD layer — minutes</text>
+<g class="c-blue"><rect x="40" y="630" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="652" text-anchor="middle" dominant-baseline="central">Failing tests</text>
+<text class="ts" x="125" y="670" text-anchor="middle" dominant-baseline="central">Red phase</text></g>
+<g class="c-blue"><rect x="240" y="630" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="652" text-anchor="middle" dominant-baseline="central">Passing tests</text>
+<text class="ts" x="325" y="670" text-anchor="middle" dominant-baseline="central">Green phase</text></g>
+<g class="c-blue"><rect x="440" y="630" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="652" text-anchor="middle" dominant-baseline="central">Refactored code</text>
+<text class="ts" x="525" y="670" text-anchor="middle" dominant-baseline="central">Clean design</text></g>
+
+<g class="c-coral"><polygon points="218,658 230,646 242,658 230,670" stroke-width="0.5"/></g>
+<text class="ts" x="200" y="620" text-anchor="end">Coding agent</text>
+
+<line x1="325" y1="686" x2="325" y2="706" class="arr" marker-end="url(#arrow)"/>
+<circle cx="325" cy="696" r="5" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<text class="th" x="40" y="726">CI/CD layer — seconds to hours</text>
+<g class="c-green"><rect x="40" y="740" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="762" text-anchor="middle" dominant-baseline="central">Integrated build</text>
+<text class="ts" x="125" y="780" text-anchor="middle" dominant-baseline="central">All tests green</text></g>
+<g class="c-green"><rect x="240" y="740" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="762" text-anchor="middle" dominant-baseline="central">Deployed artifact</text>
+<text class="ts" x="325" y="780" text-anchor="middle" dominant-baseline="central">Production-ready</text></g>
+<g class="c-green"><rect x="440" y="740" width="170" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="762" text-anchor="middle" dominant-baseline="central">Working software</text>
+<text class="ts" x="525" y="780" text-anchor="middle" dominant-baseline="central">In production</text></g>
+
+<g class="c-coral"><polygon points="218,768 230,756 242,768 230,780" stroke-width="0.5"/></g>
+<text class="ts" x="200" y="730" text-anchor="end">CI/CD gate</text>
+
+<g class="c-coral"><polygon points="628,768 640,756 652,768 640,780" stroke-width="0.5"/></g>
+<text class="ts" x="640" y="806" text-anchor="middle">Observability</text>
+<text class="ts" x="640" y="820" text-anchor="middle">agent</text>
+
+<line x1="325" y1="796" x2="325" y2="816" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-gray"><rect x="200" y="820" width="250" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="842" text-anchor="middle" dominant-baseline="central">User outcomes</text>
+<text class="ts" x="325" y="860" text-anchor="middle" dominant-baseline="central">Value in the world</text></g>
+
+<path d="M 450 848 Q 670 848 670 108 L 654 108" fill="none" stroke="#993C1D" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text class="ts" x="674" y="478" text-anchor="end">value capture</text>
+
+<path d="M 200 848 Q 20 848 20 218 L 36 218" fill="none" stroke="#993C1D" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text class="ts" x="12" y="478" text-anchor="start">learning</text>
+
+<g class="c-amber"><rect x="200" y="900" width="250" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="922" text-anchor="middle" dominant-baseline="central">Rework register</text>
+<text class="ts" x="325" y="940" text-anchor="middle" dominant-baseline="central">Failures classified by loop</text></g>
+
+<line x1="325" y1="876" x2="325" y2="896" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-coral"><polygon points="468,928 480,916 492,928 480,940" stroke-width="0.5"/></g>
+<text class="ts" x="500" y="924" text-anchor="start">PDSA agent</text>
+<text class="ts" x="500" y="940" text-anchor="start">count ≥ 3</text>
+
+<path d="M 200 928 Q 100 928 100 328 L 38 328" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M 200 928 Q 130 928 130 438 L 38 438" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M 200 928 Q 160 928 160 548 L 38 548" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+
+<text class="th" x="325" y="990" text-anchor="middle">Compounding artifacts</text>
+
+<g class="c-blue"><rect x="40" y="1010" width="170" height="50" rx="8" stroke-width="0.5"/>
+<text class="th" x="125" y="1028" text-anchor="middle" dominant-baseline="central">Ubiquitous glossary</text>
+<text class="ts" x="125" y="1046" text-anchor="middle" dominant-baseline="central">Shared language</text></g>
+<g class="c-blue"><rect x="240" y="1010" width="170" height="50" rx="8" stroke-width="0.5"/>
+<text class="th" x="325" y="1028" text-anchor="middle" dominant-baseline="central">Process capability</text>
+<text class="ts" x="325" y="1046" text-anchor="middle" dominant-baseline="central">What we promise</text></g>
+<g class="c-blue"><rect x="440" y="1010" width="170" height="50" rx="8" stroke-width="0.5"/>
+<text class="th" x="525" y="1028" text-anchor="middle" dominant-baseline="central">Lessons learned</text>
+<text class="ts" x="525" y="1046" text-anchor="middle" dominant-baseline="central">Pattern library</text></g>
+
+<path d="M 325 956 L 325 1006" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+<g class="c-gray"><rect x="40" y="1090" width="610" height="160" rx="10" stroke-width="0.5"/>
+<text class="th" x="345" y="1114" text-anchor="middle" dominant-baseline="central">Human judgment zone</text>
+<text class="ts" x="60" y="1142">— BMC: aim setting, segment definition, revenue model decisions</text>
+<text class="ts" x="60" y="1162">— VPC: fit validation, which pain to prioritize, hidden stock interpretation</text>
+<text class="ts" x="60" y="1182">— Story Mapping: release slicing, scope depletion calls</text>
+<text class="ts" x="60" y="1202">— ATDD: customer acceptance, story completion judgment</text>
+<text class="ts" x="60" y="1222">— Rework register: pattern interpretation, PDSA proposal review</text>
+<text class="ts" x="60" y="1242" font-style="italic">Agents prepare materials. Gates enforce criteria. Humans decide.</text></g>
+
+<g><rect x="40" y="1270" width="610" height="120" rx="8" fill="none" stroke="var(--color-border-tertiary)" stroke-width="0.5"/>
+<text class="th" x="56" y="1294">Eight agents distributed across seven layers</text>
+<text class="ts" x="56" y="1318">Outer layers get sensing agents (market signal, customer research). Middle layers get drafting and</text>
+<text class="ts" x="56" y="1336">refining agents (refinement, workshopping, glossary). Acceptance gets the ATDD Guardian. Code</text>
+<text class="ts" x="56" y="1354">layer gets the coding agent. CI/CD gets the gate and observability. PDSA agent monitors the register.</text>
+<text class="ts" x="56" y="1378">No agent operates without a gate or human review downstream. The system retains its judgment.</text></g>
+</svg>

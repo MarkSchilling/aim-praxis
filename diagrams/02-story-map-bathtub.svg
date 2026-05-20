@@ -1,0 +1,94 @@
+<svg width="100%" viewBox="0 0 680 860" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Story Map as a bathtub with named inflows and outflows</title>
+<desc>Five inflows fill the Story Map stock from the left; five outflows drain it toward working software on the right. Imbalance creates pack rat syndrome.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="ts" x="40" y="28">Inflows on the left fill the map. Outflows on the right drain it. Valves (circles) set the rates.</text>
+
+<g class="c-gray"><rect x="40" y="80" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="115" y="102" text-anchor="middle" dominant-baseline="central">User discovery</text></g>
+
+<g class="c-gray"><rect x="40" y="138" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="115" y="160" text-anchor="middle" dominant-baseline="central">Blue-sky ideation</text></g>
+
+<g class="c-gray"><rect x="40" y="196" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="115" y="218" text-anchor="middle" dominant-baseline="central">Task identification</text></g>
+
+<g class="c-gray"><rect x="40" y="254" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="115" y="276" text-anchor="middle" dominant-baseline="central">Detail refinement</text></g>
+
+<g class="c-gray"><rect x="40" y="312" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="115" y="334" text-anchor="middle" dominant-baseline="central">Stakeholder input</text></g>
+
+<line x1="190" y1="102" x2="248" y2="170" class="arr" marker-end="url(#arrow)"/>
+<circle cx="219" cy="136" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="190" y1="160" x2="248" y2="185" class="arr" marker-end="url(#arrow)"/>
+<circle cx="219" cy="172" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="190" y1="218" x2="248" y2="200" class="arr" marker-end="url(#arrow)"/>
+<circle cx="219" cy="209" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="190" y1="276" x2="248" y2="220" class="arr" marker-end="url(#arrow)"/>
+<circle cx="219" cy="248" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="190" y1="334" x2="248" y2="235" class="arr" marker-end="url(#arrow)"/>
+<circle cx="219" cy="284" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<g class="c-purple"><rect x="250" y="140" width="180" height="120" rx="10" stroke-width="0.5"/>
+<text class="th" x="340" y="180" text-anchor="middle" dominant-baseline="central">Story map</text>
+<text class="ts" x="340" y="200" text-anchor="middle" dominant-baseline="central">Intangible stock of</text>
+<text class="ts" x="340" y="216" text-anchor="middle" dominant-baseline="central">shared understanding</text></g>
+
+<text class="ts" x="340" y="252" text-anchor="middle" font-style="italic">level rises and falls</text>
+
+<line x1="430" y1="170" x2="488" y2="102" class="arr" marker-end="url(#arrow)"/>
+<circle cx="459" cy="136" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="430" y1="185" x2="488" y2="160" class="arr" marker-end="url(#arrow)"/>
+<circle cx="459" cy="172" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="430" y1="200" x2="488" y2="218" class="arr" marker-end="url(#arrow)"/>
+<circle cx="459" cy="209" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="430" y1="220" x2="488" y2="276" class="arr" marker-end="url(#arrow)"/>
+<circle cx="459" cy="248" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+<line x1="430" y1="235" x2="488" y2="334" class="arr" marker-end="url(#arrow)"/>
+<circle cx="459" cy="284" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<g class="c-teal"><rect x="490" y="80" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="565" y="102" text-anchor="middle" dominant-baseline="central">Release slicing</text></g>
+
+<g class="c-teal"><rect x="490" y="138" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="565" y="160" text-anchor="middle" dominant-baseline="central">Story workshopping</text></g>
+
+<g class="c-teal"><rect x="490" y="196" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="565" y="218" text-anchor="middle" dominant-baseline="central">Dev specification</text></g>
+
+<g class="c-amber"><rect x="490" y="254" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="565" y="276" text-anchor="middle" dominant-baseline="central">Scope depletion</text></g>
+
+<g class="c-green"><rect x="490" y="312" width="150" height="44" rx="6" stroke-width="0.5"/>
+<text class="ts" x="565" y="334" text-anchor="middle" dominant-baseline="central">Product delivery</text></g>
+
+<g class="c-green"><rect x="245" y="450" width="190" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="340" y="474" text-anchor="middle" dominant-baseline="central">Working software</text>
+<text class="ts" x="340" y="494" text-anchor="middle" dominant-baseline="central">Verified value delivered</text></g>
+
+<line x1="565" y1="356" x2="430" y2="446" class="arr" marker-end="url(#arrow)" opacity="0.6"/>
+<line x1="565" y1="124" x2="565" y2="440" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+<line x1="565" y1="182" x2="565" y2="440" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+<line x1="565" y1="240" x2="565" y2="440" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+
+<text class="th" x="115" y="60" text-anchor="middle">Inflows</text>
+<text class="th" x="565" y="60" text-anchor="middle">Outflows</text>
+
+<g class="c-amber"><rect x="60" y="560" width="560" height="130" rx="10" stroke-width="0.5"/>
+<text class="th" x="340" y="588" text-anchor="middle" dominant-baseline="central">Pack rat archetype</text>
+<text class="ts" x="80" y="616">When inflow rate exceeds outflow rate, the map accumulates discretionary stories faster than the team</text>
+<text class="ts" x="80" y="634">can refine and deliver them. Stock level rises. Backlog appears impressive but velocity does not change.</text>
+<text class="ts" x="80" y="660">Leverage point: throttle inflows (especially blue-sky ideation) OR widen outflow valves (slicing, scope</text>
+<text class="ts" x="80" y="678">depletion). Pumping discovery harder while outflows are constant is the most common mistake.</text></g>
+
+<g><rect x="40" y="720" width="600" height="120" rx="8" fill="none" stroke="var(--color-border-tertiary)" stroke-width="0.5"/>
+<text class="th" x="56" y="744">Two notes on flow asymmetry</text>
+<text class="ts" x="56" y="768">Scope depletion is colored amber because it does not produce value — it preserves throughput by</text>
+<text class="ts" x="56" y="786">removing items. Treating it as failure leads to pack rat syndrome. Treating it as flow regulation is SoPK.</text>
+<text class="ts" x="56" y="812">The Working Software stock only grows from Product Delivery. The other four outflows drain the map but</text>
+<text class="ts" x="56" y="830">do not yet produce value — they are intermediate transformations along the aging chain.</text></g>
+</svg>

@@ -1,0 +1,124 @@
+<svg width="100%" viewBox="0 0 680 920" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Agentic agents placed on the SDLC stock-and-flow system</title>
+<desc>Agents widen valves, enforce gates, and learn from the rework register. Human judgment stays at aim setting, acceptance, and pattern interpretation.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="ts" x="40" y="28">Coral diamonds are agents. Purple stocks are information. Teal gates enforce quality.</text>
+
+<g class="c-purple"><rect x="40" y="60" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="120" y="82" text-anchor="middle" dominant-baseline="central">Raw ideas</text>
+<text class="ts" x="120" y="100" text-anchor="middle" dominant-baseline="central">Discovery, ideation</text></g>
+
+<g class="c-purple"><rect x="260" y="60" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="340" y="82" text-anchor="middle" dominant-baseline="central">Backbone</text>
+<text class="ts" x="340" y="100" text-anchor="middle" dominant-baseline="central">Unrefined tasks</text></g>
+
+<g class="c-purple"><rect x="480" y="60" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="560" y="82" text-anchor="middle" dominant-baseline="central">Refined tasks</text>
+<text class="ts" x="560" y="100" text-anchor="middle" dominant-baseline="central">Details, exceptions</text></g>
+
+<line x1="200" y1="88" x2="256" y2="88" class="arr" marker-end="url(#arrow)"/>
+<circle cx="228" cy="88" r="5" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<line x1="420" y1="88" x2="476" y2="88" class="arr" marker-end="url(#arrow)"/>
+<g class="c-coral"><polygon points="448,76 460,88 448,100 436,88" stroke-width="0.5"/></g>
+<text class="ts" x="448" y="58" text-anchor="middle">Refinement agent</text>
+
+<g class="c-purple"><rect x="480" y="170" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="560" y="192" text-anchor="middle" dominant-baseline="central">Acceptance-ready</text>
+<text class="ts" x="560" y="210" text-anchor="middle" dominant-baseline="central">Given-When-Then</text></g>
+
+<line x1="560" y1="116" x2="560" y2="166" class="arr" marker-end="url(#arrow)"/>
+<g class="c-coral"><polygon points="548,141 560,129 572,141 560,153" stroke-width="0.5"/></g>
+<text class="ts" x="610" y="135" text-anchor="middle">Workshopping</text>
+<text class="ts" x="610" y="150" text-anchor="middle">agent</text>
+
+<g class="c-teal"><rect x="260" y="170" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="340" y="192" text-anchor="middle" dominant-baseline="central">ATDD gate</text>
+<text class="ts" x="340" y="210" text-anchor="middle" dominant-baseline="central">Deterministic check</text></g>
+
+<line x1="476" y1="198" x2="424" y2="198" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-purple"><rect x="40" y="170" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="120" y="192" text-anchor="middle" dominant-baseline="central">In progress</text>
+<text class="ts" x="120" y="210" text-anchor="middle" dominant-baseline="central">TDD cycles</text></g>
+
+<line x1="256" y1="198" x2="204" y2="198" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-teal"><rect x="40" y="280" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="120" y="302" text-anchor="middle" dominant-baseline="central">CI/CD gate</text>
+<text class="ts" x="120" y="320" text-anchor="middle" dominant-baseline="central">Integration check</text></g>
+
+<line x1="120" y1="226" x2="120" y2="276" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-green"><rect x="260" y="280" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="340" y="302" text-anchor="middle" dominant-baseline="central">Working software</text>
+<text class="ts" x="340" y="320" text-anchor="middle" dominant-baseline="central">Deployed, verified</text></g>
+
+<line x1="200" y1="308" x2="256" y2="308" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-blue"><rect x="480" y="280" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="560" y="302" text-anchor="middle" dominant-baseline="central">User outcomes</text>
+<text class="ts" x="560" y="320" text-anchor="middle" dominant-baseline="central">Value in the world</text></g>
+
+<line x1="420" y1="308" x2="476" y2="308" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-amber"><rect x="260" y="400" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="th" x="340" y="422" text-anchor="middle" dominant-baseline="central">Rework register</text>
+<text class="ts" x="340" y="440" text-anchor="middle" dominant-baseline="central">Failures classified</text></g>
+
+<line x1="340" y1="336" x2="340" y2="396" class="arr" marker-end="url(#arrow)"/>
+<text class="ts" x="352" y="370">defects</text>
+
+<g class="c-coral"><polygon points="588,428 600,416 612,428 600,440" stroke-width="0.5"/></g>
+<text class="ts" x="600" y="464" text-anchor="middle">PDSA agent</text>
+<text class="ts" x="600" y="478" text-anchor="middle">count ≥ 3</text>
+
+<line x1="420" y1="428" x2="586" y2="428" class="arr" marker-end="url(#arrow)"/>
+
+<path d="M 600 416 Q 600 250 600 130 L 644 130" fill="none" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text class="ts" x="612" y="240">proposes rules</text>
+
+<g class="c-blue"><rect x="40" y="520" width="180" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="130" y="544" text-anchor="middle" dominant-baseline="central">Ubiquitous glossary</text>
+<text class="ts" x="130" y="562" text-anchor="middle" dominant-baseline="central">Versioned, enforced</text></g>
+
+<g class="c-coral"><polygon points="218,538 230,526 242,538 230,550" stroke-width="0.5"/></g>
+<text class="ts" x="250" y="535" text-anchor="start">Glossary agent</text>
+<text class="ts" x="250" y="550" text-anchor="start">maintains terms</text>
+
+<g class="c-blue"><rect x="40" y="600" width="180" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="130" y="624" text-anchor="middle" dominant-baseline="central">Process capability</text>
+<text class="ts" x="130" y="642" text-anchor="middle" dominant-baseline="central">What we can promise</text></g>
+
+<g class="c-blue"><rect x="40" y="680" width="180" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="130" y="704" text-anchor="middle" dominant-baseline="central">Lessons learned</text>
+<text class="ts" x="130" y="722" text-anchor="middle" dominant-baseline="central">Pattern library</text></g>
+
+<path d="M 130 580 L 130 600" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3"/>
+<path d="M 130 660 L 130 680" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+<path d="M 220 550 Q 380 540 448 100" fill="none" stroke="var(--t)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+
+<path d="M 340 456 Q 340 510 220 540" fill="none" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M 340 456 Q 340 580 220 620" fill="none" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M 340 456 Q 340 660 220 700" fill="none" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+
+<g class="c-gray"><rect x="280" y="600" width="360" height="160" rx="10" stroke-width="0.5"/>
+<text class="th" x="460" y="624" text-anchor="middle" dominant-baseline="central">Human judgment zone</text>
+<text class="ts" x="300" y="650">— Aim setting (what is the product for)</text>
+<text class="ts" x="300" y="670">— Release slicing (what ships first)</text>
+<text class="ts" x="300" y="690">— Customer acceptance (problem actually solved)</text>
+<text class="ts" x="300" y="710">— Pattern interpretation (what failures mean)</text>
+<text class="ts" x="300" y="730">— Agent output review (judgment about judgment)</text>
+<text class="ts" x="300" y="750" font-style="italic">Agents prepare, propose, check. Humans decide.</text></g>
+
+<g><rect x="40" y="790" width="600" height="110" rx="8" fill="none" stroke="var(--color-border-tertiary)" stroke-width="0.5"/>
+<text class="th" x="56" y="814">Reading the diagram</text>
+<text class="ts" x="56" y="838">Four agents at valves and gates: refinement (applies prior knowledge), workshopping (drafts scenarios),</text>
+<text class="ts" x="56" y="856">glossary (maintains language), PDSA (detects rework patterns). Two enforcement gates: ATDD and CI/CD.</text>
+<text class="ts" x="56" y="876">Agents feed the human judgment zone; humans decide; decisions flow back through the system. The</text>
+<text class="ts" x="56" y="894">rework register closes the learning loop by feeding compounding artifacts and triggering the PDSA agent.</text></g>
+</svg>

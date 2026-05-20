@@ -1,0 +1,87 @@
+<svg width="100%" viewBox="0 0 680 760" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Destinations of outflows from the Story Map</title>
+<desc>Each outflow from the Story Map fills a downstream stock. Naming these destinations clarifies what the map produces and where value accumulates.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="ts" x="40" y="28">Each outflow fills a downstream stock. Some are inside the team, some serve customers, one is exogenous.</text>
+
+<text class="th" x="170" y="62" text-anchor="middle">Outflow (the rate)</text>
+<text class="th" x="500" y="62" text-anchor="middle">Destination stock</text>
+
+<g class="c-teal"><rect x="40" y="90" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="170" y="114" text-anchor="middle" dominant-baseline="central">Release slicing</text>
+<text class="ts" x="170" y="132" text-anchor="middle" dominant-baseline="central">drains the map →</text></g>
+
+<line x1="300" y1="120" x2="370" y2="120" class="arr" marker-end="url(#arrow)"/>
+<circle cx="335" cy="120" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<g class="c-purple"><rect x="370" y="90" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="500" y="114" text-anchor="middle" dominant-baseline="central">Prioritized release backlogs</text>
+<text class="ts" x="500" y="132" text-anchor="middle" dominant-baseline="central">MVP, walking skeleton</text></g>
+
+<g class="c-teal"><rect x="40" y="170" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="170" y="194" text-anchor="middle" dominant-baseline="central">Story workshopping</text>
+<text class="ts" x="170" y="212" text-anchor="middle" dominant-baseline="central">drains release backlogs →</text></g>
+
+<line x1="300" y1="200" x2="370" y2="200" class="arr" marker-end="url(#arrow)"/>
+<circle cx="335" cy="200" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<g class="c-purple"><rect x="370" y="170" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="500" y="194" text-anchor="middle" dominant-baseline="central">Acceptance-ready stories</text>
+<text class="ts" x="500" y="212" text-anchor="middle" dominant-baseline="central">Criteria attached, gates defined</text></g>
+
+<g class="c-teal"><rect x="40" y="250" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="170" y="274" text-anchor="middle" dominant-baseline="central">Dev specification</text>
+<text class="ts" x="170" y="292" text-anchor="middle" dominant-baseline="central">drains ready stories →</text></g>
+
+<line x1="300" y1="280" x2="370" y2="280" class="arr" marker-end="url(#arrow)"/>
+<circle cx="335" cy="280" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<g class="c-purple"><rect x="370" y="250" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="500" y="274" text-anchor="middle" dominant-baseline="central">Work in progress</text>
+<text class="ts" x="500" y="292" text-anchor="middle" dominant-baseline="central">Code being written and tested</text></g>
+
+<g class="c-amber"><rect x="40" y="330" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="170" y="354" text-anchor="middle" dominant-baseline="central">Scope depletion</text>
+<text class="ts" x="170" y="372" text-anchor="middle" dominant-baseline="central">drains the map →</text></g>
+
+<line x1="300" y1="360" x2="370" y2="360" class="arr" marker-end="url(#arrow)"/>
+<circle cx="335" cy="360" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<g class="c-amber"><rect x="370" y="330" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="500" y="354" text-anchor="middle" dominant-baseline="central">Future map / cut list</text>
+<text class="ts" x="500" y="372" text-anchor="middle" dominant-baseline="central">Deferred, not destroyed</text></g>
+
+<g class="c-green"><rect x="40" y="410" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="170" y="434" text-anchor="middle" dominant-baseline="central">Product delivery</text>
+<text class="ts" x="170" y="452" text-anchor="middle" dominant-baseline="central">drains work in progress →</text></g>
+
+<line x1="300" y1="440" x2="370" y2="440" class="arr" marker-end="url(#arrow)"/>
+<circle cx="335" cy="440" r="6" fill="var(--color-background-primary)" stroke="var(--t)" stroke-width="1"/>
+
+<g class="c-green"><rect x="370" y="410" width="260" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="500" y="434" text-anchor="middle" dominant-baseline="central">Working software</text>
+<text class="ts" x="500" y="452" text-anchor="middle" dominant-baseline="central">Verified, in production</text></g>
+
+<text class="ts" x="340" y="500" text-anchor="middle" font-style="italic">Working software then feeds two further stocks outside the map</text>
+
+<line x1="370" y1="525" x2="240" y2="555" class="arr" marker-end="url(#arrow)" opacity="0.7"/>
+<line x1="370" y1="525" x2="500" y2="555" class="arr" marker-end="url(#arrow)" opacity="0.7"/>
+
+<g class="c-blue"><rect x="60" y="560" width="240" height="70" rx="10" stroke-width="0.5"/>
+<text class="th" x="180" y="584" text-anchor="middle" dominant-baseline="central">User outcomes</text>
+<text class="ts" x="180" y="604" text-anchor="middle" dominant-baseline="central">Behavior change, value</text>
+<text class="ts" x="180" y="620" text-anchor="middle" dominant-baseline="central">realized (exogenous)</text></g>
+
+<g class="c-coral"><rect x="380" y="560" width="240" height="70" rx="10" stroke-width="0.5"/>
+<text class="th" x="500" y="584" text-anchor="middle" dominant-baseline="central">Rework register</text>
+<text class="ts" x="500" y="604" text-anchor="middle" dominant-baseline="central">Defects, gaps, drift</text>
+<text class="ts" x="500" y="620" text-anchor="middle" dominant-baseline="central">(endogenous, feedback)</text></g>
+
+<g><rect x="40" y="660" width="600" height="80" rx="8" fill="none" stroke="var(--color-border-tertiary)" stroke-width="0.5"/>
+<text class="th" x="56" y="684">Reading the chain</text>
+<text class="ts" x="56" y="708">Five outflows, five destinations. Four are internal staging stocks; user outcomes is the only exogenous</text>
+<text class="ts" x="56" y="726">destination — the one place value leaves the system. Rework register loops back, closing the learning loop.</text></g>
+</svg>
