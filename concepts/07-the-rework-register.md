@@ -46,6 +46,18 @@ The proposal goes to humans for review. The agent does not implement the change.
 
 This human-in-the-loop pattern is deliberate. Pattern detection is something agents do well; pattern interpretation is something humans do well. The register and the PDSA agent together produce candidates for human decision; they do not replace the decision.
 
+## How the register compounds gate capability
+
+The query patterns above and the PDSA agent both work through human review — humans read the queries or proposals and decide. There is a second, in-band feedback channel: the register itself can be **read by gates at evaluation time.** This is what makes the register a compounding artifact operationally, not just metaphorically.
+
+The pattern: when a gate's evaluation involves a judgment-adjacent agent (the ATDD acceptance criterion gate's ambiguity check, the PDSA proposal gate's pattern detection, future agentic gates), the gate's evaluation context includes a slice of the rework register selected by semantic similarity to the current input. The agent sees past failures that resemble what it is now evaluating and applies the lesson without a human in the loop for each evaluation.
+
+The effect: the gate becomes progressively harder to fool. A criterion-authoring mistake that produced an ambiguity failure three months ago becomes a pattern the gate recognizes immediately. The gate's discriminating capability grows as a function of register size.
+
+This pattern works only for gates with evaluation agents. Mechanical gates — TDD's linter and test runner, CI/CD's deterministic checks — have no evaluation context to inject into. For those gates, register-driven improvement still flows through the human-mediated channel: the PDSA agent proposes; humans approve; the gate's criteria set changes.
+
+The implementation is typically a semantic-similarity index over the register's diagnostic field, queried at gate evaluation time with the current input as the query vector. Storage format and indexing are implementation choices. The property the methodology requires is that **the register's content reaches the gate's evaluation context automatically, with no human in the per-evaluation loop.** This is what distinguishes the rework register from a bug tracker or a postmortem archive — it is not just storage with queries on top; it is an active input to judgment-adjacent gates, and it gets richer with use.
+
 ## The register as audit trail
 
 A side effect of the unified register is that it becomes the team's audit trail for system health over time. Trends become visible: failures are increasing or decreasing, certain categories are growing or shrinking, certain layers are improving or degrading.
